@@ -17,7 +17,6 @@ sudo make install
 CREATE EXTENSION send_email_v2;  
 CREATE EXTENSION pg_background;
 ```
-и
 ```
 SELECT procedures.send_email_v2('kuncovs19@gmail.com', 'kuncovs1.0@gmail.com', 'Subject', 'Body');
 ```
